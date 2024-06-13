@@ -14,11 +14,10 @@ There's no need to include Next in the current toy app, but in a real use case t
 
 ## data model
 
-By requirement, this app discards real authentication in favor of a username-only authentication system. In total, there are three business entities beyond the standard Payload entities:
+There are two business entities beyond the standard Payload entities:
 
-1. FakeUser
-2. BulletinBoard
-3. BulletinBoardMessage
+1. BulletinBoard
+2. BulletinBoardMessage
 
 ## useful links
 
