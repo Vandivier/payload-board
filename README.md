@@ -19,3 +19,7 @@ By requirement, this app discards real authentication in favor of a username-onl
 1. FakeUser
 2. BulletinBoard
 3. BulletinBoardMessage
+
+## useful links
+
+1. [Install Payload Into Any Next.js App With One Line — 3.0 Beta Is Here!](https://www.youtube.com/watch?v=CZ7a-dx3Glw)
