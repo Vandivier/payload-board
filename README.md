@@ -22,3 +22,4 @@ There are two business entities beyond the standard Payload entities:
 ## useful links
 
 1. [Install Payload Into Any Next.js App With One Line — 3.0 Beta Is Here!](https://www.youtube.com/watch?v=CZ7a-dx3Glw)
+2. [Payload Website Template](https://github.com/payloadcms/payload/tree/main/templates/website/src)
