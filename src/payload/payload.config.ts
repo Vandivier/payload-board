@@ -19,11 +19,6 @@ import { Projects } from "./collections/Projects";
 import Users from "./collections/Users";
 import BeforeDashboard from "./components/BeforeDashboard";
 import BeforeLogin from "./components/BeforeLogin";
-import {
-  clearDBEndpoint,
-  resetDBEndpoint,
-  seedDBEndpoint,
-} from "./endpoints/resetDB";
 import { Footer } from "./globals/Footer";
 import { Header } from "./globals/Header";
 import { Settings } from "./globals/Settings";
@@ -73,7 +68,7 @@ export default buildConfig({
   cors: [process.env.PAYLOAD_PUBLIC_SERVER_URL || ""].filter(Boolean),
   csrf: [process.env.PAYLOAD_PUBLIC_SERVER_URL || ""].filter(Boolean),
   editor: lexicalEditor({}),
-  endpoints: [resetDBEndpoint, seedDBEndpoint, clearDBEndpoint],
+  endpoints: [],
   globals: [Settings, Header, Footer],
   graphQL: {
     disablePlaygroundInProduction: false,
